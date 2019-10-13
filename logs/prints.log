@@ -1,0 +1,2 @@
+13:23:53.270 [TestNG-test=Test on chrome-5] INFO  com.bestbuy.tests.BaseTest - URL is opened
+13:24:05.508 [TestNG-test=Test on chrome-5] INFO  com.bestbuy.tests.BaseTest - Browser is closed!

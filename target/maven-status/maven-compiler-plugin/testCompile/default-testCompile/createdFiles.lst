@@ -1,0 +1,6 @@
+com\bestbuy\tests\CompleteOrderTest.class
+com\bestbuy\tests\HomePageTests.class
+com\bestbuy\tests\BrokenLinksandImages.class
+com\bestbuy\tests\TDDSearchItem.class
+com\bestbuy\tests\listeners.class
+com\bestbuy\tests\BaseTest.class

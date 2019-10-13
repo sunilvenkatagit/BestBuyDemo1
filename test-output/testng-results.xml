@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="7" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-10T16:18:29Z" name="Suite" finished-at="2019-10-10T16:18:55Z" duration-ms="26030">
+    <groups>
+    </groups>
+    <test started-at="2019-10-10T16:18:29Z" name="Test on chrome" finished-at="2019-10-10T16:18:55Z" duration-ms="26030">
+      <class name="com.bestbuy.tests.HomePageTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bestbuy.tests.HomePageTests@4445629]" started-at="2019-10-10T16:18:29Z" name="setUp" finished-at="2019-10-10T16:18:53Z" duration-ms="24739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:com.bestbuy.tests.HomePageTests@4445629]" started-at="2019-10-10T16:18:53Z" name="verifyHomePageTitle" description="Home page title" finished-at="2019-10-10T16:18:54Z" duration-ms="254" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [QBest Buy: Shop Online For Deals & Save | Best Buy Canada] but found [Best Buy: Shop Online For Deals & Save | Best Buy Canada]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [QBest Buy: Shop Online For Deals & Save | Best Buy Canada] but found [Best Buy: Shop Online For Deals & Save | Best Buy Canada]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.bestbuy.tests.HomePageTests.verifyHomePageTitle(HomePageTests.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bestbuy.tests.HomePageTests@4445629]" started-at="2019-10-10T16:18:54Z" name="tearDown" finished-at="2019-10-10T16:18:55Z" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bestbuy.tests.HomePageTests -->
+    </test> <!-- Test on chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
